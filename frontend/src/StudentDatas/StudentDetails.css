@@ -1,0 +1,78 @@
+.studentDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+.studentDetails table thead td{
+    padding: 10px  0;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.studentDetails table {
+  border-collapse: collapse;
+}
+.studentDetails table td{
+    width: 200px;
+    text-align: center;
+}
+.studentDetails table tr,
+td {
+  border: 1px solid black;
+}
+.studentDetails table tbody td{
+    padding: 5px 0;
+}
+
+
+.student_filter label{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+.student_filter input{
+    width: 300px;
+    height: 40px;
+    padding-left: 5px;
+}
+.student_filter input::placeholder{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.student_filter button{
+    height: 40px;
+    padding: 0 20px;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.student_filter .note{
+    background-color: rgba(255, 0, 0, 0.925);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.edit_btn button{
+    background-color: goldenrod;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 5px 0;
+}
